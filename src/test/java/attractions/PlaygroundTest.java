@@ -32,7 +32,7 @@ public class PlaygroundTest {
     }
 
     @Test
-    public void hasBouncer(){
+    public void hasAgeRestriction(){
         assertEquals(false, playground.isAllowed(bob));
     }
 }

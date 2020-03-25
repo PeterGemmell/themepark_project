@@ -33,7 +33,7 @@ public class RollercoasterTest {
     }
 
     @Test
-    public void hasBouncer(){
+    public void hasAgeRestriction(){
         assertEquals(true, rollerCoaster.isAllowed(peter));
     }
 
